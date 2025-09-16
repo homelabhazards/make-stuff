@@ -12,7 +12,7 @@ All original designs remain under their respective licenses as noted below.
   Source: [Printables.com](https://www.printables.com/model/678391-pci-card-holder-for-storage)  
   Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-  **Modifications by [HomelabHazards]:**
+  **Modifications by [HomelabHazards](https://github.com/homelabhazards):**
   - Added screw holes for mountability  
   - Increased rear bracket height for low-profile card compatibility  
   - Angled card edge mount tops to avoid keep-out area resistors
