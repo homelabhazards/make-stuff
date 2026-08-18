@@ -1,0 +1,29 @@
+{
+  "_comment": "Example output of `probe`, then edited. Rename the keys under 'scenes' to match your OBS scene names. device_hash values are examples from a DeckLink Duo 2 and WILL differ on your hardware — always generate your own with `probe`.",
+  "_devices_seen": [
+    { "name": "DeckLink Duo (1)", "device_hash": "3970865216_DeckLink Duo 2" },
+    { "name": "DeckLink Duo (2)", "device_hash": "3970865217_DeckLink Duo 2" },
+    { "name": "DeckLink Duo (3)", "device_hash": "3970865218_DeckLink Duo 2" },
+    { "name": "DeckLink Duo (4)", "device_hash": "3970865219_DeckLink Duo 2" }
+  ],
+  "_modes_available": [
+    { "mode_id": -1, "name": "Auto" },
+    { "mode_id": 7, "name": "1080p30" },
+    { "mode_id": 9, "name": "1080p59.94" },
+    { "mode_id": 10, "name": "1080p60" },
+    { "mode_id": 16, "name": "720p60" }
+  ],
+  "defaults": {
+    "mode_id": 10,
+    "video_connection": 1,
+    "audio_connection": 1,
+    "pixel_format": 846624121,
+    "auto_start": true
+  },
+  "scenes": {
+    "io0": { "device_hash": "3970865216_DeckLink Duo 2" },
+    "io1": { "device_hash": "3970865217_DeckLink Duo 2" },
+    "io2": { "device_hash": "3970865218_DeckLink Duo 2" },
+    "io3": { "device_hash": "3970865219_DeckLink Duo 2" }
+  }
+}
