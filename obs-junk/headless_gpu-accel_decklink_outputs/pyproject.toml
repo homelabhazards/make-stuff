@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "obs-decklink-headless"
+version = "0.1.0"
+description = "Bind DeckLink Output Filters to OBS Studio scenes by name, for headless Linux setups."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Matt Hazard" }]
+keywords = ["obs", "obs-studio", "decklink", "blackmagic", "sdi", "headless", "broadcast"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = ["obsws-python>=1.7"]
+
+[project.urls]
+Homepage = "https://github.com/SeabeckTech/obs-decklink-headless"
+Issues = "https://github.com/SeabeckTech/obs-decklink-headless/issues"
+
+[project.scripts]
+obs-decklink-headless = "obs_decklink_headless.cli:main"
+
+[tool.setuptools]
+packages = ["obs_decklink_headless"]
